@@ -1,0 +1,174 @@
+*{
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+ }
+
+body, html {
+	font-family: 'Cabin Condensed', sans-serif;
+	font-size: 18px;
+	padding: 0 15px;
+}
+
+.grayBar {
+	background-color: #DFDFE0;
+}
+
+#topNav {
+	height: 1.8rem;
+}
+
+ul.gray {
+	width: 60%;
+	margin: 0 auto;
+	padding-left: 16rem;
+	float: left;
+}
+
+.gray,li {
+	height: 1.8rem;
+	display: inline-block;
+	padding: 0.1rem 0.3rem;
+	font-size: 1rem;
+	list-style: none;
+	margin: auto;
+}
+
+.gray,a {
+	color: #707173;
+}
+
+a {
+	text-decoration: none;
+}
+
+p a:hover {
+	color: red;
+}
+
+li + li {
+	border-left: 1px solid white;
+}
+
+.search {
+	padding-right: 0.5rem;
+}
+
+#searchButton {
+	width: 1.5rem;
+	height: 1.5rem;
+	background-image: url('magnifying_glass.PNG');
+	box-shadow: 0.2rem 0.2rem 0.2rem #17229C;
+	border-radius: 10%;
+}
+
+#logo {
+	width: 13rem;
+	height: 4rem;
+}
+
+label {
+	padding: 0 0.5rem;
+}
+
+input.newsletter {
+	margin: 0.3rem 0.3rem 0 0;
+}
+
+.newsletter::-webkit-input-placeholder, label {
+   color: #EE3027;
+   font-style: italic;
+}
+
+.newsletter:-moz-placeholder, label  { /* Firefox 18- */
+   color: #EE3027; 
+   font-style: italic; 
+}
+
+.newsletter::-moz-placeholder, label  {  /* Firefox 19+ */
+   color: #EE3027;  
+   font-style: italic;
+}
+
+.newsletter:-ms-input-placeholder, label  {  
+   color: #EE3027; 
+   font-style: italic; 
+}
+
+.wrapperRight {
+	float: right;
+}
+
+.floatingCart {
+	float: right;
+	clear: right;
+	margin: 0;
+}
+
+#trusted {
+	width: 5rem;
+	height: 3rem;
+	float: left;
+	margin-right: 2rem;
+}
+
+#cart {
+	width: 2rem;
+	height: 2rem;
+	margin: 0.56rem 0;
+	float: left;
+}
+
+.cartDropdown {
+	width: 10rem;
+	height: 2rem;
+	padding: 0.3rem 0.3rem;
+	margin: 0.56rem 0;
+	text-align: center;
+	font-size: 1rem;
+	display: inline-block;
+	color: #707173;
+	float: left;
+}
+
+nav {
+	background-color: #015697;
+	height: 2rem;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+nav li a {
+	font-size: 1.4rem;
+	padding: 0.3rem 2rem;
+	color: white;
+}
+
+h1 {
+	font-size: 32px;
+	text-align: center;
+	color: #707173;
+}
+
+h2 {
+	font-size: 28px;
+	color: #3D3F42;
+}
+
+p , ol{
+	display: none;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+
